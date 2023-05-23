@@ -37,7 +37,7 @@ There are 30 named theme colors in [`theme.color_scheme`](/docs/controls/page#co
 
 ```
 # example for generating page theme colors based on the seed color
-page.theme = theme.Theme(color_scheme_seed='green')
+page.theme = ft.Theme(color_scheme_seed='green')
 page.update()
 ```
 
